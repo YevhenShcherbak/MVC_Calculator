@@ -1,0 +1,3 @@
+C:/Users/Evgeny/Desktop/MVC_Calculator/build/CMakeFiles/MVC_Calculator.dir
+C:/Users/Evgeny/Desktop/MVC_Calculator/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Evgeny/Desktop/MVC_Calculator/build/CMakeFiles/ZERO_CHECK.dir

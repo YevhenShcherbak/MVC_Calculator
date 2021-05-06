@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Evgeny\Desktop\MVC_Calculator\Calculator_Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Evgeny\Desktop\MVC_Calculator\src\Calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Evgeny\Desktop\MVC_Calculator\src\CalculatorController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Evgeny\Desktop\MVC_Calculator\src\CalculatorView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Evgeny\Desktop\MVC_Calculator\include\Calculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Evgeny\Desktop\MVC_Calculator\include\CalculatorController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Evgeny\Desktop\MVC_Calculator\include\CalculatorView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Evgeny\Desktop\MVC_Calculator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{63853975-1F44-3E4E-ABFE-7B3421FF5709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6ACBBC6-93A4-3C38-9143-01B832180DDB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
