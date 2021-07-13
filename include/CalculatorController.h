@@ -2,11 +2,10 @@
 #define CALCULATORCONTROLLER_H_
 
 #include "Calculator.h"
-#include "CalculatorView.h"
+#include <iostream>
 
 namespace calculator_mvc
 {
-
 	class CalculatorController
 	{
 		Calculator calc;

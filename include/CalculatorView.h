@@ -1,7 +1,7 @@
 #ifndef CALCULATORVIEW_H_
 #define CALCULATORVIEW_H_
 
-#include "Calculator.h"
+#include "CalculatorController.h"
 #include <iostream>
 
 namespace calculator_mvc
@@ -13,7 +13,7 @@ namespace calculator_mvc
 		CalculatorView();
 		~CalculatorView();
 		
-		void printExpression(Calculator calc);
+		void printExpression(CalculatorController calc);
 	};
 }
 #endif /* CALCULATORVIEW_H_ */
