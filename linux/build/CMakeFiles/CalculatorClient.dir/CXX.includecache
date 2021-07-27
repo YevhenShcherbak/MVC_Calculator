@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/linux/CalculatorClient.cpp
+iostream
+-
+string
+-
+cstring
+-
+unistd.h
+-
+sys/types.h
+-
+sys/mman.h
+-
+fcntl.h
+-
+
