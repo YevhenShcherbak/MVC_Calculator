@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/CalculatorClient.dir/CalculatorClient.cpp.o  -o CalculatorClient  -lrt 
