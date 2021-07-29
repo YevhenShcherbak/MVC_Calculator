@@ -1,4 +1,0 @@
-/mnt/build/CMakeFiles/rebuild_cache.dir
-/mnt/build/CMakeFiles/edit_cache.dir
-/mnt/build/CMakeFiles/CalculatorClient.dir
-/mnt/build/CMakeFiles/CalculatorServer.dir
