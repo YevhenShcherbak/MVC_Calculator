@@ -1,4 +1,4 @@
-/mnt/linux/build/CMakeFiles/rebuild_cache.dir
-/mnt/linux/build/CMakeFiles/edit_cache.dir
-/mnt/linux/build/CMakeFiles/CalculatorClient.dir
-/mnt/linux/build/CMakeFiles/CalculatorServer.dir
+/mnt/build/CMakeFiles/rebuild_cache.dir
+/mnt/build/CMakeFiles/edit_cache.dir
+/mnt/build/CMakeFiles/CalculatorClient.dir
+/mnt/build/CMakeFiles/CalculatorServer.dir

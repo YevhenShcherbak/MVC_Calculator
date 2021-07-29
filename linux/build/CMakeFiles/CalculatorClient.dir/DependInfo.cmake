@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/linux/CalculatorClient.cpp" "/mnt/linux/build/CMakeFiles/CalculatorClient.dir/CalculatorClient.cpp.o"
+  "/mnt/CalculatorClient.cpp" "/mnt/build/CMakeFiles/CalculatorClient.dir/CalculatorClient.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

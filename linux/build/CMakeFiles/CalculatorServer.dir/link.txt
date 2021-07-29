@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/CalculatorServer.dir/CalculatorServer.cpp.o CMakeFiles/CalculatorServer.dir/src/Calculator.cpp.o CMakeFiles/CalculatorServer.dir/src/CalculatorController.cpp.o CMakeFiles/CalculatorServer.dir/src/CalculatorView.cpp.o  -o CalculatorServer 
+/usr/bin/c++    -rdynamic CMakeFiles/CalculatorServer.dir/CalculatorServer.cpp.o CMakeFiles/CalculatorServer.dir/src/Calculator.cpp.o CMakeFiles/CalculatorServer.dir/src/CalculatorController.cpp.o CMakeFiles/CalculatorServer.dir/src/CalculatorView.cpp.o  -o CalculatorServer  -lrt 

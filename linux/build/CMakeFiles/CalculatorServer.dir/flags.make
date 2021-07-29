@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/linux/MVC_Calculator -I/mnt/linux/C:/Users/Evgeny/Desktop/MVC_Calculator/include 
+CXX_INCLUDES = -I/mnt/MVC_Calculator -I/mnt/C:/Users/Evgeny/Desktop/MVC_Calculator/include 
 
