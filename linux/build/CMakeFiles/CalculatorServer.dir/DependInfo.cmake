@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/CalculatorServer.cpp" "/mnt/build/CMakeFiles/CalculatorServer.dir/CalculatorServer.cpp.o"
-  "/mnt/src/Calculator.cpp" "/mnt/build/CMakeFiles/CalculatorServer.dir/src/Calculator.cpp.o"
-  "/mnt/src/CalculatorController.cpp" "/mnt/build/CMakeFiles/CalculatorServer.dir/src/CalculatorController.cpp.o"
-  "/mnt/src/CalculatorView.cpp" "/mnt/build/CMakeFiles/CalculatorServer.dir/src/CalculatorView.cpp.o"
+  "/mnt/linux/CalculatorServer.cpp" "/mnt/linux/build/CMakeFiles/CalculatorServer.dir/CalculatorServer.cpp.o"
+  "/mnt/linux/src/Calculator.cpp" "/mnt/linux/build/CMakeFiles/CalculatorServer.dir/src/Calculator.cpp.o"
+  "/mnt/linux/src/CalculatorController.cpp" "/mnt/linux/build/CMakeFiles/CalculatorServer.dir/src/CalculatorController.cpp.o"
+  "/mnt/linux/src/CalculatorView.cpp" "/mnt/linux/build/CMakeFiles/CalculatorServer.dir/src/CalculatorView.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

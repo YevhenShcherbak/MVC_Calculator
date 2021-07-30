@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/CalculatorServer.cpp
+/mnt/linux/CalculatorServer.cpp
 include/Calculator.h
-/mnt/include/Calculator.h
+/mnt/linux/include/Calculator.h
 include/CalculatorView.h
-/mnt/include/CalculatorView.h
+/mnt/linux/include/CalculatorView.h
 include/CalculatorController.h
-/mnt/include/CalculatorController.h
+/mnt/linux/include/CalculatorController.h
 iostream
 -
 string
@@ -28,31 +28,17 @@ fcntl.h
 vector
 -
 
-/mnt/include/Calculator.h
+/mnt/linux/include/Calculator.h
 
-/mnt/include/CalculatorController.h
+/mnt/linux/include/CalculatorController.h
 Calculator.h
-/mnt/include/Calculator.h
+/mnt/linux/include/Calculator.h
 iostream
 -
 
-/mnt/include/CalculatorView.h
+/mnt/linux/include/CalculatorView.h
 CalculatorController.h
-/mnt/include/CalculatorController.h
+/mnt/linux/include/CalculatorController.h
 iostream
 -
-
-/mnt/src/Calculator.cpp
-../include/Calculator.h
-/mnt/include/Calculator.h
-iostream
--
-
-/mnt/src/CalculatorController.cpp
-../include/CalculatorController.h
-/mnt/include/CalculatorController.h
-
-/mnt/src/CalculatorView.cpp
-../include/CalculatorView.h
-/mnt/include/CalculatorView.h
 

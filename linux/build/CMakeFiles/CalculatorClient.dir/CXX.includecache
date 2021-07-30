@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/mnt/CalculatorClient.cpp
+/mnt/linux/CalculatorClient.cpp
 iostream
 -
 string
