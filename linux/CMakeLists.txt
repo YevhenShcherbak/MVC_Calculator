@@ -4,12 +4,9 @@ project(MVC_Calculator VERSION 0.01 DESCRIPTION "MVC pattern calculator" LANGUAG
 SET (CMAKE_VERBOSE_MAKEFILE 1)
 set(SOURCESServer CalculatorServer.cpp src/Calculator.cpp src/CalculatorController.cpp src/CalculatorView.cpp)
 set(SOURCESClient CalculatorClient.cpp)
-#find_library(LIBLRT lrt) 
 include_directories(MVC_Calculator C:/Users/Evgeny/Desktop/MVC_Calculator/include/)
 add_executable(CalculatorServer ${SOURCESServer})
 add_executable(CalculatorClient ${SOURCESClient})
-#target_link_libraries(CalculatorClient ${LIBRT})
-#target_link_libraries(CalculatorServer ${LIBRT})
 target_link_libraries(CalculatorServer rt)
 target_link_libraries(CalculatorClient rt)
 
