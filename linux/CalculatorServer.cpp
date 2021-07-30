@@ -14,11 +14,11 @@
 
 using namespace calculator_mvc;
 
-std::string Receive()
+std::string Receive(Calculator calc)
 {
 	int shm;
 	int mode = O_CREAT;
-	char* addr;
+	char *addr;
 	std::string receive;
 	std::string error = "Error!";
 
@@ -34,8 +34,8 @@ std::string Receive()
 		return error;
 	}
 
-	addr = (char*)mmap(0, BUFFER_SIZE + 1, PROT_WRITE | PROT_READ, MAP_SHARED, shm, 0);
-	if (addr == (char*)-1)
+	addr = (char *)mmap(0, BUFFER_SIZE + 1, PROT_WRITE | PROT_READ, MAP_SHARED, shm, 0);
+	if (addr == (char *)-1)
 	{
 		perror("mmap");
 		return error;
@@ -45,24 +45,8 @@ std::string Receive()
 	receive = addr;
 	munmap(addr, BUFFER_SIZE);
 	close(shm);
-	
-	return receive;
-}
 
-Calculator ExampleDB()
-{
-	Calculator calc;
-	calc.setNumber1(22.3);
-	calc.setNumber2(21.2);
-	calc.setSign('-');
-	return calc;
-}
-
-int main()
-{
-	std::string expression;
-	expression = Receive();
-
+	std::string expression = receive;
 	std::vector<std::string> tokens;
 
 	std::size_t prev = 0, pos;
@@ -92,20 +76,43 @@ int main()
 	double a = std::stod(tokens[0]);
 	double b = std::stod(tokens[1]);
 
-	Calculator calc = ExampleDB();
 	CalculatorView view = CalculatorView();
-	view.printExpression(calc);
-	
+
 	CalculatorController controller = CalculatorController(calc);
 	controller.setNumber1(a);
 	controller.setNumber2(b);
 	controller.setSign(sign);
 	view.printExpression(controller);
-	
-	/*controller.setNumber1(25);
-	controller.setNumber2(35);
-	controller.setSign('-');
-	view.printExpression(controller);*/
-	//std::cout << std::endl << "New expr: " << controller.getNumber1() << " " << controller.getSign() << " ";
-	//std::cout << controller.getNumber2() << " = " << controller.getResult(controller.getSign());
+}
+
+Calculator ExampleDB()
+{
+	Calculator calc;
+	calc.setNumber1(22.3);
+	calc.setNumber2(21.2);
+	calc.setSign('-');
+	return calc;
+}
+
+int main()
+{
+	char answer;
+	Calculator calc;
+	while (true)
+	{
+		Receive(calc);
+		std::cout << "Do you want to continue operation? [Y/n]: ";
+		std::cin >> answer;
+		if ((char)std::tolower(answer) == 'y')
+		{
+			//Receive(calc);
+			continue;
+		}
+		else
+		{
+			std::cout << "Exiting programm!" << std::endl;
+			break;
+		}
+	}
+	return 1;
 }
